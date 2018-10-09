@@ -43,7 +43,7 @@ int main(){
         int n,c;
         cin>>n>>c;
         int arr[n];
-        rep(i,n) cin>>arr[i];
+        for(int i=0;i<n;i++) cin>>arr[i];
         if(n<c){
             cout<<0<<endl;
             continue;
