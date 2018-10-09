@@ -15,16 +15,15 @@ bool all9(string s){
     return true;
 }
 string nextpalin(string s){
-    if(s.length()==1){
-        if(s=="9") return "11";
-        s[0]++;
-        return s;
-    }
-    else if(all9(s)){
+    if(all9(s)){
         string ans="1";
         rep(i,s.length()-1) ans+='0';
         ans+='1';
         return ans;
+    }
+    else if(s.length()==1){
+        s[0]++;
+        return s;
     }
     int n=s.length();
     int i=n/2-1,j=n/2;
