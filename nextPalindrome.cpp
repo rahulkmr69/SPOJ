@@ -64,7 +64,7 @@ int main(){
     io
     int q;
     cin>>q;
-    while(q--){
+    rep(test,q){
         string s;
         cin>>s;
         cout<<nextpalin(s)<<endl;
