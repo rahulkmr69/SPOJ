@@ -10,12 +10,12 @@
 #define io ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 typedef long long ll;
 using namespace std;
-bool all9(string s){
+bool allNine(string s){
     rep(i,s.length()) if(s[i]!='9') return false;
     return true;
 }
 string nextpalin(string s){
-    if(all9(s)){
+    if(allNine(s)){
         string ans="1";
         rep(i,s.length()-1) ans+='0';
         ans+='1';
