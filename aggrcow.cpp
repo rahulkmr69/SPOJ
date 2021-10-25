@@ -36,7 +36,6 @@ int solve(int arr[],int n,int c){
     return high;
 }
 int main(){
-    io
     int q;
     cin>>q;
     while(q--){
