@@ -1,2 +1,2 @@
 # SPOJ
-This repository contains some Spoj questions' solution.
+This repository contains some Spoj question's solution.
