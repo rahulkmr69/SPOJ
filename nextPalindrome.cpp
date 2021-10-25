@@ -1,5 +1,7 @@
-// Problem link
-// https://www.spoj.com/problems/PALIN/
+/*
+Problem link
+https://www.spoj.com/problems/PALIN/
+*/
 
 #include<bits/stdc++.h>
 #define rep(i,n) for(int i=0;i<n;i++)
