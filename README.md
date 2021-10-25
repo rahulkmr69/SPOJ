@@ -1,2 +1,3 @@
 # SPOJ
-This repository contains some Spoj question's solution.
+
+This repository contains some SPOJ coding question solutions.
