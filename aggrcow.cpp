@@ -21,6 +21,7 @@ bool check(int arr[],int n,int c,int d){
     }
     return false;
 }
+
 int solve(int arr[],int n,int c){
     int low=0,high=arr[n-1]-arr[0];
     while(low<=high){
@@ -35,6 +36,7 @@ int solve(int arr[],int n,int c){
     }
     return high;
 }
+
 int main(){
     int q;
     cin>>q;
