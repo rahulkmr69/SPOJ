@@ -15,6 +15,7 @@ https://www.spoj.com/problems/PALIN/
 #define io ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 typedef long long ll;
 using namespace std;
+
 bool allNine(string s){
     rep(i,s.length()) if(s[i]!='9') return false;
     return true;
